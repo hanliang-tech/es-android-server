@@ -12,7 +12,7 @@ android {
     versionCode 1
     versionName '1.0'
     ndk {
-      abiFilters "armeabi-v7a"
+      abiFilters "armeabi-v7a", "arm64-v8a"
     }
   }
 
@@ -48,5 +48,5 @@ dependencies {
   debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.7'
   implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
-  implementation 'com.hili.sdk.mp:server:1.1.1d'
+//  implementation 'com.hili.sdk.mp:server:1.1.2'
 }
